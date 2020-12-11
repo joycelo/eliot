@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #BFE615;
+  animation-name: backgroundcolor;
+  animation-duration: 12s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes backgroundcolor {
+  0% {background-color: #BFE615;}
+  25% {background-color:#ff9292;}
+  50% {background-color:#f7fbfc;}
+  100% {background-color:#6272ff;}
+}
+
+.welcome1 {
+  animation-name : mymove1;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 5s;
+}
+
+@keyframes mymove1 {
+  from {transform: translateY(50px)}
+  to {transform: translateY(500px)}
+  /* from {transform: translateX(2px);}
+  to {transform: translateX(200px);} */
+}
+
+.welcome2 {
+  animation-name : mymove2;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 7s;
+}
+
+@keyframes mymove2 {
+  from {transform: translateX(-300px)}
+  to {transform: translateX(400px)}
+}
