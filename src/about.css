@@ -1,0 +1,73 @@
+#about-info {
+  background-image: url('https://images.unsplash.com/photo-1577105106699-5c230ed0bd70?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2167&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1606983044731-827bb9051339?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=976&q=80'); */
+  margin: auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  /* width: 10%;
+  height: 50%; */
+  border: 1px solid #dab71c;
+  /* border-radius: 5px; */
+  padding: 20px;
+  animation-name: trianglebox;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 5s;
+}
+
+@keyframes trianglebox {
+  from {transform: translateX(0px)}
+  to {transform: translateX(30px)}
+}
+
+.triangle1 {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #f00;
+    animation-name: triangle1;
+    animation-iteration-count : infinite;
+    animation-direction : alternate;
+    animation-duration : 2s;
+}
+
+@keyframes triangle1 {
+  from {transform: translateX(40px)}
+  to {transform: translateX(75px)}
+}
+
+.triangle2 {
+  width: 0; 
+  height: 0; 
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid rgb(225, 0, 255);
+  animation-name: triangle2;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 3s;
+}
+
+@keyframes triangle2 {
+  from {transform: rotate(0deg)}
+  to {transform: rotate(360deg)}
+}
+
+.circle1 {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #61ff23;
+  display: inline-block;
+  animation-name: circle1;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5s;
+}
+
+@keyframes circle1 {
+  from {transform: translateY(0px)}
+  to {transform: translateY(120px)}
+}
