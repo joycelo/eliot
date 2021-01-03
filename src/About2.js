@@ -10,6 +10,8 @@ class About2 extends React.Component {
         </div>
         <div className='about2-info2'>
         </div>
+        <div className='about2-info3'>
+        </div>
       </div>
     )
   }

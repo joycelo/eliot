@@ -8,6 +8,12 @@ body {
   animation-direction: alternate;
 }
 
+.push-pull-text {
+  font-size: '8px';
+  font-style: 'italic';
+  color: 'green';
+}
+
 @keyframes backgroundcolor {
   0% {background-color: #BFE615;}
   25% {background-color:#ff9292;}
@@ -41,7 +47,3 @@ body {
   to {transform: translateX(400px)}
 }
 
-.push-pull-text {
-  font-size: '8px';
-  font-style: 'italic';
-}

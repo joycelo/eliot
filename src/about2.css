@@ -12,12 +12,12 @@
   animation-name: about2box1;
   animation-iteration-count : infinite;
   animation-direction : alternate;
-  animation-duration : 5s;
+  animation-duration : 10s;
 }
 
 @keyframes about2box1 {
-  from {transform: translateY(0px)}
-  to {transform: translateY(300px)}
+  from {transform: translateY(0px) rotateZ(0deg)}
+  to {transform: translateY(300px) rotateZ(-356deg)}
 }
 
 .about2-info2 {
@@ -26,18 +26,45 @@
   top: 632px;
   left: 800px;
   display: inline-block;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: 1px solid #ffffff;
   padding: 20px;
   animation-name: about2box2;
   animation-iteration-count : infinite;
   animation-direction : alternate;
-  animation-duration : 8s;
+  animation-duration : 18s;
 }
 
 @keyframes about2box2 {
-  from {transform: translateX(0px)}
-  to {transform: translateX(620px)}
+  /* from {transform: translateX(0px) rotateZ(0deg)}
+  to {transform: translateX(620px) rotateZ(375deg)} */
+  from {transform: rotate(0deg) translateX(350px) rotate(0deg) rotateZ(0)}
+  to {transform: rotate(360deg) translateX(350px) rotate(-360deg) rotateZ(375deg)}
+}
+
+.about2-info3 {
+  background-image: url('https://images.unsplash.com/photo-1603847734351-116f83527eca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+  position: absolute;
+  top: 575px;
+  left: 900px;
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  padding: 20px;
+  animation-name: about2box3;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 25s;
+  z-index: -1;
+}
+
+@keyframes about2box3 {
+  /* from {transform: translateX(0px) rotateZ(0deg)}
+  to {transform: translateX(620px) rotateZ(375deg)} */
+  from {transform: rotate(0deg) translateX(378px) rotate(0deg) rotateZ(0)}
+  to {transform: rotate(360deg) translateX(378px) rotate(-360deg) rotateZ(375deg)}
 }
