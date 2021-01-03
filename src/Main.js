@@ -16,7 +16,7 @@ class Main extends React.Component {
     return (
       <div className="main-page">
         <div className="welcome1">
-          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> swing
+          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> moon
         </div>
         <div className="welcome2">
           <span className="push-pull-text">push</span>&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;<span className="push-pull-text">llup</span>
