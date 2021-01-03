@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css';
-import { SmileOutlined } from '@ant-design/icons';
+import { SmileOutlined, FullscreenOutlined } from '@ant-design/icons';
 import About from './About.js';
 import Hi from './Hi.js';
 import Fact from './Fact.js';
@@ -16,10 +16,10 @@ class Main extends React.Component {
     return (
       <div className="main-page">
         <div className="welcome1">
-          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> thing
+          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> swing
         </div>
         <div className="welcome2">
-          <SmileOutlined spin='true' style={{color: '#000000', fontSize: '22px'}}/> swing
+          PUSH&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;LLUP
         </div>
         <Hi />
         <About />
