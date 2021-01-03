@@ -40,3 +40,8 @@ body {
   from {transform: translateX(-300px)}
   to {transform: translateX(400px)}
 }
+
+.push-pull-text {
+  font-size: '8px';
+  font-style: 'italic';
+}

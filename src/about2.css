@@ -1,4 +1,4 @@
-.about2-info {
+.about2-info1 {
   background-image: url('https://images.unsplash.com/photo-1603847734351-116f83527eca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
   position: absolute;
   top: 50px;
@@ -9,13 +9,35 @@
   border-radius: 50%;
   border: 2px solid #ffffff;
   padding: 20px;
-  animation-name: about2box;
+  animation-name: about2box1;
   animation-iteration-count : infinite;
   animation-direction : alternate;
   animation-duration : 5s;
 }
 
-@keyframes about2box {
+@keyframes about2box1 {
   from {transform: translateY(0px)}
   to {transform: translateY(300px)}
+}
+
+.about2-info2 {
+  background-image: url('https://images.unsplash.com/photo-1603847734351-116f83527eca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+  position: absolute;
+  top: 632px;
+  left: 800px;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+  padding: 20px;
+  animation-name: about2box2;
+  animation-iteration-count : infinite;
+  animation-direction : alternate;
+  animation-duration : 8s;
+}
+
+@keyframes about2box2 {
+  from {transform: translateX(0px)}
+  to {transform: translateX(620px)}
 }

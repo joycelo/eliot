@@ -5,7 +5,11 @@ class About2 extends React.Component {
 
   render() {
     return (
-      <div className='about2-info'>
+      <div>
+        <div className='about2-info1'>
+        </div>
+        <div className='about2-info2'>
+        </div>
       </div>
     )
   }

@@ -19,7 +19,7 @@ class Main extends React.Component {
           <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> swing
         </div>
         <div className="welcome2">
-          PUSH&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;LLUP
+          <span className="push-pull-text">push</span>&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;<span className="push-pull-text">llup</span>
         </div>
         <Hi />
         <About />
