@@ -16,10 +16,10 @@ class Main extends React.Component {
     return (
       <div className="main-page">
         <div className="welcome1">
-          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> hello!
+          <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> thing
         </div>
         <div className="welcome2">
-          <SmileOutlined spin='true' style={{color: '#000000', fontSize: '22px'}}/> hello!
+          <SmileOutlined spin='true' style={{color: '#000000', fontSize: '22px'}}/> swing
         </div>
         <Hi />
         <About />
