@@ -6,6 +6,7 @@ import Hi from './Hi.js';
 import Fact from './Fact.js';
 import About2 from './About2.js';
 import Video from './Video.js';
+import Drag from './Drag.js';
 
 class Main extends React.Component {
   // constructor(props) {
@@ -27,6 +28,7 @@ class Main extends React.Component {
         <About2 />
         <Fact />
         <Video />
+        <Drag />
       </div>
     );
   }
