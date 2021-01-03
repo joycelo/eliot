@@ -48,7 +48,9 @@ class Drag extends React.Component {
   render() {
     return (
       <div className='drag-div'>
-        <img id='drag-img' src='https://opengameart.org/sites/default/files/tree_1.gif' />
+        <img id='drag-img1' src='https://opengameart.org/sites/default/files/tree_1.gif' />
+        <img id='drag-img2' src='https://opengameart.org/sites/default/files/tree_1.gif' />
+        <img id='drag-img3' src='https://opengameart.org/sites/default/files/tree_1.gif' />
         {/* {dragElement(document.getElementById('drag-div'))}; */}
       </div>
     )

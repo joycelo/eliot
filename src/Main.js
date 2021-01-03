@@ -21,7 +21,7 @@ class Main extends React.Component {
           {/* <SmileOutlined spin='true' style={{color: '#A33100', fontSize: '22px'}}/> MOON */}
         </div>
         <div className="welcome2">
-          <span className="push-pull-text">push</span>&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;<span className="push-pull-text">llup</span>
+          push&nbsp;&nbsp;&nbsp;<FullscreenOutlined spin='true' style={{color: '#00FF33', fontSize: '49px'}}/>&nbsp;&nbsp;&nbsp;llup
         </div>
         <Hi />
         <About />

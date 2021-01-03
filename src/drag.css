@@ -2,18 +2,68 @@
 
 }
 
-#drag-img {
+#drag-img1 {
   width: 55px;
   height: auto;
   float: right; 
   position: absolute;
-  top: 20%;
-  right: 10%;
+  top: 65%;
+  right: 32%;
   margin: 30px 10px;
   font-family: 'Amatic SC', cursive;
   font-size: 24px;
   font-weight: 700;
-  border: 2px dotted rgb(85, 245, 36);
+  border: 1px solid #fff;
   border-radius: 7px;
-  padding: 10px;
+  box-shadow: 1px 1px 1px rgb(165, 190, 212);
+  padding: 15px;
+}
+
+#drag-img1:hover {
+  /* opacity: .1; */
+  background-color: #FFBDB0;
+}
+
+#drag-img2 {
+  width: 55px;
+  height: auto;
+  float: right; 
+  position: absolute;
+  top: 75%;
+  right: 27%;
+  margin: 30px 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px rgb(165, 190, 212);
+  padding: 15px;
+}
+
+#drag-img2:hover {
+  /* opacity: .1; */
+  background-color: #b325b8;
+}
+
+#drag-img3 {
+  width: 55px;
+  height: auto;
+  float: right; 
+  position: absolute;
+  top: 85%;
+  right: 22%;
+  margin: 30px 10px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px rgb(165, 190, 212);
+  padding: 15px;
+}
+
+#drag-img3:hover {
+  /* opacity: .1; */
+  background-color: #7a0010;
 }
