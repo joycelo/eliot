@@ -20,4 +20,4 @@ build minified, filenames include hashes, app ready for deploy
 
 ### `yarn eject`
 
-one-way heyhey
+one-way heyy
